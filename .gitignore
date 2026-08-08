@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# lean 4
+.lake/
+swar_verify/.lake/
+*.olean
+*.ilean
+*.c
+
+# ide and os
+.vscode/
+.idea/
+.DS_Store
+
+# project specific
+mathtest_context.md

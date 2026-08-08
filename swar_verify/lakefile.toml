@@ -1,0 +1,10 @@
+name = "swar_verify"
+version = "0.1.0"
+defaultTargets = ["swar_verify"]
+
+[[lean_lib]]
+name = "SwarVerify"
+
+[[lean_exe]]
+name = "swar_verify"
+root = "Main"
